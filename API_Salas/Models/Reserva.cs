@@ -10,12 +10,13 @@ namespace API_Alunos.Models {
         }
 
         
-        [Key]        
+        [Required]
         public int codr { get; set; }
 
         public int codd { get; set; }
 
-        [Required]
+        public int codob { get; set; }
+        
         public int cods { get; set; }
 
         public int code { get; set; }
@@ -28,7 +29,13 @@ namespace API_Alunos.Models {
 
         public ICollection<Servico>? Servicos { get; set; }
 
+        public Equipamento? Equipamentos { get; set; }
 
+        public ICollection<Sala>? Salas { get; set; }
+
+        public ICollection<Disponibilidade>? Disponibilidades { get; set; }
+
+        public ICollection<Objeto>? Objetos { get; set; }
 
     }
 }

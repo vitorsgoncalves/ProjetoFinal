@@ -37,14 +37,6 @@ PRIMARY KEY (cods),
 FOREIGN KEY(codend) REFERENCES Enderecos
 );
 
-CREATE TABLE Fotos (
-codFoto integer,
-cods integer,
-foto varchar(MAX),
-PRIMARY KEY (codFoto),
-FOREIGN KEY(cods) REFERENCES Salas
-);
-
 CREATE TABLE Horarios(
 codh integer,
 inicio time,
