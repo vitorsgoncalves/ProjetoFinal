@@ -20,5 +20,7 @@ namespace API_Alunos.Models {
         public bool temEstacionamento { get; set; }
 
         public bool temArCondicionado { get; set; }    
+
+        public virtual ICollection<Foto> Fotos {get; set;}
     }
 }
