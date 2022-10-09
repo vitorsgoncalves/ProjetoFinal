@@ -26,7 +26,9 @@ namespace API_Alunos.Models {
 
         public bool reservaEfetuada { get; set; }
 
-        public ICollection<Servico>? Servico { get; set; }
+        public ICollection<Servico>? Servicos { get; set; }
+
+
 
     }
 }

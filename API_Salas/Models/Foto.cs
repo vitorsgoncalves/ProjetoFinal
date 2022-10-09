@@ -14,7 +14,9 @@ namespace API_Alunos.Models
         // [StringLength(MAX)]
         public string foto { get; set; }
 
+        //na tabela que tem muitosna relação de 1 pra muitos,
+        //vai colocar como nesse modelo
          [JsonIgnore]
-        public Sala? Sala {get; set;}
+        public Sala? Salas {get; set;}
     }
 }

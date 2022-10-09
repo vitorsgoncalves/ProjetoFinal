@@ -21,6 +21,8 @@ namespace API_Alunos.Models {
 
         public bool temArCondicionado { get; set; }    
 
+        //na tabela que tem apenas 1 relação de 1 pra muitos,
+        //vai colocar como nesse modelo
         public virtual ICollection<Foto> Fotos {get; set;}
     }
 }
