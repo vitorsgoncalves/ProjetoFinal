@@ -17,6 +17,6 @@ namespace API_Alunos.Models
         //na tabela que tem muitosna relação de 1 pra muitos,
         //vai colocar como nesse modelo
          [JsonIgnore]
-        public Sala? Salas {get; set;}
+        public Sala? Sala {get; set;}
     }
 }
