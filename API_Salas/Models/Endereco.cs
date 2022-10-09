@@ -18,6 +18,6 @@ namespace API_Alunos.Models
       
         [StringLength(3)]
         public string complemento { get; set; }
-
+     
     }
 }

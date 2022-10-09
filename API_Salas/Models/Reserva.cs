@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace API_Alunos.Models {
+<<<<<<< HEAD
     public class Reserva {
 
         public Reserva() {
@@ -11,6 +12,10 @@ namespace API_Alunos.Models {
 
         
         [Required]
+=======
+    public class Reserva {   
+        [Key]        
+>>>>>>> 9825d81cc8e452c8921c4f6c7ab865856e8ccbcc
         public int codr { get; set; }
 
         public int codd { get; set; }
@@ -26,9 +31,9 @@ namespace API_Alunos.Models {
         public decimal valorTotal { get; set; }
 
         public bool reservaEfetuada { get; set; }
-
         public ICollection<Servico>? Servicos { get; set; }
 
+<<<<<<< HEAD
         public Equipamento? Equipamentos { get; set; }
 
         public ICollection<Sala>? Salas { get; set; }
@@ -37,5 +42,7 @@ namespace API_Alunos.Models {
 
         public ICollection<Objeto>? Objetos { get; set; }
 
+=======
+>>>>>>> 9825d81cc8e452c8921c4f6c7ab865856e8ccbcc
     }
 }
