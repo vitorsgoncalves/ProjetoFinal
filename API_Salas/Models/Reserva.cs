@@ -5,9 +5,9 @@ using System.Text.Json.Serialization;
 namespace API_Alunos.Models {
     public class Reserva {
 
-        public Reserva() {
-            Servico = new Collection<Servico>();
-        }
+        // public Reserva() {
+        //     Servico = new Collection<Servico>();
+        // }
 
         
         [Key]        
@@ -26,7 +26,7 @@ namespace API_Alunos.Models {
 
         public bool reservaEfetuada { get; set; }
 
-        public ICollection<Servico>? Servicos { get; set; }
+        // public ICollection<Servico>? Servicos { get; set; }
 
 
 
