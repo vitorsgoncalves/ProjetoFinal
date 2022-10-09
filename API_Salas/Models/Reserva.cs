@@ -19,6 +19,7 @@ namespace API_Alunos.Models {
         public decimal valorTotal { get; set; }
 
         public bool reservaEfetuada { get; set; }
- 
+        public ICollection<Servico>? Servicos { get; set; }
+
     }
 }

@@ -12,14 +12,14 @@ namespace API_Alunos.Models
 
         public decimal custo { get; set; }
 
-        public ICollection<Impressao> Impressaos { get; set; }
+        public ICollection<Impressao>? Impressaos { get; set; }
 
-        public ICollection<MaterialEscritorio> MaterialEscritorios { get; set; }
+        public ICollection<MaterialEscritorio>? MaterialEscritorios { get; set; }
 
-        public ICollection<CoffeeBreak> CoffeeBreaks { get; set; }
+        public ICollection<CoffeeBreak>? CoffeeBreaks { get; set; }
 
-        //public ICollection<Objeto> Objetos { get; set; }
+        //public ICollection<Objeto>? Objetos { get; set; }
 
-        //public ICollection<Limpeza> Limpezas { get;set; }
+        //public ICollection<Limpeza>? Limpezas { get;set; }
     }
 }

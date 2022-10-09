@@ -12,7 +12,7 @@ namespace API_Alunos {
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            //Obter a string de conexão com o banco de dadosdo arquivo appsettings.json
+            //Obter a string de conexï¿½o com o banco de dadosdo arquivo appsettings.json
             string mySqlConnection = builder.Configuration.GetConnectionString("Connection");
 
             builder.Services.AddDbContext<AppDbContext>(options =>

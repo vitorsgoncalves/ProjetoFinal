@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace API_Professores.Controllers
+namespace API_Alunos.Controllers
 {
     [Route("[controller]")]
     [ApiController]
@@ -17,13 +17,8 @@ namespace API_Professores.Controllers
             _context = context;
         }
 
-        public AppDbContext Get_context()
-        {
-            return _context;
-        }
-
         [HttpGet]
-        public ActionResult<IEnumerable<Endereco>> Get(AppDbContext _context)
+        public ActionResult<IEnumerable<Endereco>> Get()
         {
             var enderecos = _context.Enderecos.ToList();
             if (enderecos is null)

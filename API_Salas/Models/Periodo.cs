@@ -15,6 +15,6 @@ namespace API_Alunos.Models
         [StringLength(20)]
         public string estaAtiva { get; set; }
 
-        public ICollection<Horario> Horarios { get; set; }
+        public ICollection<Horario>? Horarios { get; set; }
     }
 }
