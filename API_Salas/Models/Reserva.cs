@@ -3,13 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace API_Alunos.Models {
-    public class Reserva {
-
-        public Reserva() {
-            Servico = new Collection<Servico>();
-        }
-
-        
+    public class Reserva {   
         [Key]        
         public int codr { get; set; }
 
@@ -25,8 +19,6 @@ namespace API_Alunos.Models {
         public decimal valorTotal { get; set; }
 
         public bool reservaEfetuada { get; set; }
-
-        public ICollection<Servico>? Servico { get; set; }
-
+ 
     }
 }
