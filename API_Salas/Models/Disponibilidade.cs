@@ -6,9 +6,14 @@
 // {
 //     public class Disponibilidade
 //     {
+//         [Key]
+//         public int codd { get; set; }
 //         [ForeignKey("Salas")]
 //         public int cods { get; set; }
 //         [ForeignKey("Periodo")]
 //         public int codp { get; set; }  
+
+        
+//         public int codh { get; set; }  
 //     }
 // }

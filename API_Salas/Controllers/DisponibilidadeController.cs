@@ -1,11 +1,11 @@
-﻿//using API_Alunos.Context;
-//using API_Alunos.Models;
-//using Microsoft.AspNetCore.Http;
-//using Microsoft.AspNetCore.Mvc;
-//using Microsoft.EntityFrameworkCore;
+﻿// using API_Alunos.Context;
+// using API_Alunos.Models;
+// using Microsoft.AspNetCore.Http;
+// using Microsoft.AspNetCore.Mvc;
+// using Microsoft.EntityFrameworkCore;
 
-//namespace API_Professores.Controllers
-//{
+// namespace API_Professores.Controllers
+// {
 //    [Route("[controller]")]
 //    [ApiController]
 //    public class DisponibilidadeController : ControllerBase
@@ -86,4 +86,4 @@
 //            return Ok(disponibilidade);
 //        }
 //    }
-//}
+// }

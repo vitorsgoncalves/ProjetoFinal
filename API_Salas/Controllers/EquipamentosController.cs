@@ -11,6 +11,7 @@ namespace API_Alunos.Controllers
     public class EquipamentosController : ControllerBase
     {
 
+//TODO: consertar rota do post
         private readonly AppDbContext _context;
         public EquipamentosController(AppDbContext context)
         {

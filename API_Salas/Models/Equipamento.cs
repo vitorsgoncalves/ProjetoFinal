@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 namespace API_Alunos.Models
 {
     public class Equipamento
@@ -20,7 +21,7 @@ namespace API_Alunos.Models
         //[IntLength(5)]
         public decimal pesoKg { get; set; }
 
-        public decimal volume { get; set; }
+        public int volume { get; set; }
         //[IntLength(20)]
         public decimal custoTotal { get; set; }
 
@@ -30,5 +31,7 @@ namespace API_Alunos.Models
         //[IntLength(20)]
         public decimal custoHora { get; set; }
 
+        [JsonIgnore]
+        public Reserva? Reserva {get; set;}
     }
 }

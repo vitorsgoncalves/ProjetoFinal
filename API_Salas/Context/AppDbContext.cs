@@ -12,6 +12,8 @@ namespace API_Alunos.Context {
         public DbSet<Horario>? Horarios { get; set; }
         public DbSet<Impressao>? Impressoes { get; set; }
         public DbSet<MaterialEscritorio>? MateriaisEscritorios { get; set; }
+        public DbSet<Objeto>? Objetos { get; set; }
+        // public DbSet<Disponibilidade>? Disponibilidades { get; set; }
         
         public DbSet<Periodo>? Periodos { get; set; }
         public DbSet<Endereco>? Enderecos { get; set; }
