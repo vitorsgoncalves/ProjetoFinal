@@ -20,6 +20,6 @@ namespace API_Alunos.Models
 
         public ICollection<Objeto>? Objetos { get; set; }
 
-        //public ICollection<Limpeza>? Limpezas { get;set; }
+        public ICollection<Limpeza>? Limpezas { get;set; }
     }
 }
