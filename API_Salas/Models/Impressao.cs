@@ -5,7 +5,7 @@ namespace API_Alunos.Models
     public class Impressao
     { 
         [Key]       
-        public decimal codi { get; set; }
+        public int codi { get; set; }
          
         [StringLength(100)]
         public string descricao { get; set; }

@@ -5,7 +5,7 @@ namespace API_Alunos.Models
     public class Servico
     { 
         [Key]       
-        public decimal codserv { get; set; }
+        public int codserv { get; set; }
          
         [StringLength(100)]
         public string descricao { get; set; }
@@ -18,8 +18,8 @@ namespace API_Alunos.Models
 
         public ICollection<CoffeeBreak>? CoffeeBreaks { get; set; }
 
-        //public ICollection<Objeto>? Objetos { get; set; }
+        public ICollection<Objeto>? Objetos { get; set; }
 
-        //public ICollection<Limpeza>? Limpezas { get;set; }
+        public ICollection<Limpeza>? Limpezas { get;set; }
     }
 }
