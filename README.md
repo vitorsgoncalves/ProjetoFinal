@@ -2,7 +2,7 @@ Checklist:
 
 – [X] Cadastrar as salas e os horários disponíveis para a sua utilização.   
 
-– [ ] Possibilidade de cadastras fotos da sala.   
+– [X] Possibilidade de cadastras fotos da sala.   
  
 – [X] Cadastrar os clientes interessados.  
 
