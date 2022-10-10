@@ -3,19 +3,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace API_Alunos.Models {
-<<<<<<< HEAD
+
     public class Reserva {
-
-        public Reserva() {
-            Servico = new Collection<Servico>();
-        }
-
-        
-        [Required]
-=======
-    public class Reserva {   
+   
         [Key]        
->>>>>>> 9825d81cc8e452c8921c4f6c7ab865856e8ccbcc
+
         public int codr { get; set; }
 
         public int codd { get; set; }
@@ -33,16 +25,14 @@ namespace API_Alunos.Models {
         public bool reservaEfetuada { get; set; }
         public ICollection<Servico>? Servicos { get; set; }
 
-<<<<<<< HEAD
         public Equipamento? Equipamentos { get; set; }
 
         public ICollection<Sala>? Salas { get; set; }
 
-        public ICollection<Disponibilidade>? Disponibilidades { get; set; }
+        //public ICollection<Disponibilidade>? Disponibilidades { get; set; }
 
         public ICollection<Objeto>? Objetos { get; set; }
 
-=======
->>>>>>> 9825d81cc8e452c8921c4f6c7ab865856e8ccbcc
+
     }
 }
